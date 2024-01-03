@@ -9,7 +9,7 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--window-size=1920,1080")
 # chrome_options.add_argument('--headless')
 prefs = {
-    "download.default_directory": '/Users/sergey_mazanik/Desktop/github_projects/selenium_proka4/lesson_6/downloads'
+    "download.default_directory": '/absolute/path/lesson_6/downloads'
 }
 chrome_options.add_experimental_option('prefs', prefs)
 
